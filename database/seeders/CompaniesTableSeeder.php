@@ -20,7 +20,7 @@ class CompaniesTableSeeder extends Seeder
 
         $companies = [];
         $faker = Factory::create();
-        foreach (range(1,10)as $index) {
+        foreach (range(1,50)as $index) {
             $companies [] = [
                 'name' => $faker->company(),
                 'address' => $faker->address(),
